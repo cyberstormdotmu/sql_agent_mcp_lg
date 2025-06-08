@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "dataflow": {
+      "transport": "stdio",
+      "command": "python",
+      "args": ["scout/my_mcp/local_servers/dataflow.py"]
+    },
+    "filesystem": {
+      "transport": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "${MCP_FILESYSTEM_DIR}"
+      ]
+    },
+    "git": {
+      "transport": "stdio",
+      "command": "uvx",
+      "args": ["mcp-server-git"]
+    }
+  }
+}

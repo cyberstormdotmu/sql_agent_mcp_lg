@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+mcp_intro.egg-info/PKG-INFO
+mcp_intro.egg-info/SOURCES.txt
+mcp_intro.egg-info/dependency_links.txt
+mcp_intro.egg-info/requires.txt
+mcp_intro.egg-info/top_level.txt
+scout/__init__.py
+scout/client.py
+scout/graph.py
+scout/my_mcp/__init__.py
+scout/my_mcp/config.py
+scout/my_mcp/local_servers/__init__.py
+scout/my_mcp/local_servers/dataflow.py
+scout/my_mcp/local_servers/weather.py
